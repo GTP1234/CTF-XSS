@@ -18,12 +18,12 @@ if ($_POST['username'])
     $q = mysql_query("SELECT * FROM users WHERE username='$username'");
     if (mysql_num_rows($q))
     {
-        print "Username already in use. Choose another.";
+        print "Tên đã được sử dụng.";
     }
     else
     {
         mysql_query("INSERT INTO users (username, password) VALUES( '{$username}', md5('{$_POST['password']}'))");
-        print "You have signed up, enjoy the game.<br />&gt; <a href='login.php'>Login</a>";
+        print "Bạn đã đăng ký thành công.<br />&gt; <a href='login.php'>Login</a>";
     }
 }
 else
