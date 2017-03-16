@@ -2,21 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>BreakTheNet</title>
+<title>Test Your skill</title>
 </head>
 <body bgcolor="#C3C3C3">
     <h3>
-      &gt; BreakTheNet Log-In
+      &gt; XgroupVN Log-IN
     </h3>
     <table width="80%">
       <tr>
         <td width="50%">
           <fieldset>
-            <legend>About BreakTheNet</legend>
-            An XSS challenge - see if you can become logged in as the "admin" user.<br><br>
-            Note that to do so, you'll need to create your own account and create an XSS attack on your user profile.<br><br>
-            For purposes of this challenge, anything you successfully "alert()" in the admin's browser will be passed along to you.<br><br>
-            Feel free to review the source code as part of the challenge <a href='https://github.com/breakthenet/CTF-XSS-Challenge'>here</a>.
+            <legend>Test Your skill</legend>
+    Một thử thách XSS - xem bạn có thể đăng nhập như là người dùng "admin" không? <br> <br>
+    Lưu ý rằng để làm như vậy, bạn cần phải tạo tài khoản của riêng mình và tạo một cuộc tấn công XSS trên tiểu sử người dùng của bạn <br> <br>
+    Đối với mục đích của thử thách này, bất cứ điều gì bạn thành công "alert ()" trong trình duyệt của quản trị viên sẽ được thông qua cùng với bạn.<br><br>
+            Source code tham khảo <a href='hhttps://github.com/GTP1234/CTF-XSS'>here</a>.
           </fieldset>
         </td>
         <td>
