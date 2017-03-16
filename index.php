@@ -31,7 +31,7 @@ $ir = mysql_fetch_array($is);
 <table border=0>
     <tr><td>
     <fieldset>
-      <legend><select disabled='disabled' alt='Only admins can view all players profiles'>
+      <legend><select disabled='disabled' alt='chỉ có admin mới có thể nhìn thấy'>
         <option><?=$ir['username']?></option>
     </select>'s Profile</legend>
       <?=$ir['profile_desc']?>
@@ -52,7 +52,7 @@ $ir = mysql_fetch_array($is);
             print "<font color='green'>CTF Flag: ".$ctf_flag."</font>";
         }
         else {
-            print "<font color='red'>CTF Flag: [disabled] - Must be logged in as admin to access.</font>";
+            print "<font color='red'>CTF Flag: [chặn] - hãy đăng nhập tài khoản trước khi tham gia.</font>";
         }
       ?>
     </fieldset>
@@ -74,7 +74,7 @@ $ir = mysql_fetch_array($is);
         window.open('trigger_fake_admin.php?id='+<?=$id?>, 'Admin Simulation', 'status=1, height=485, width=420, left=100, top=100, resizable=0');
     }
     </script>
-    <button onclick="trigger_admin()">Lay trap for admin to visit your profile...</button>
+    <button onclick="trigger_admin()">Đặt bẫy cho quản trị viên truy cập hồ sơ của bạn...</button>
 
     <br><br><br>
     &gt; <a href='logout.php'>LOGOUT</a>
